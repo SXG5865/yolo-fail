@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['green cone', 'orange cone', 'purple cone', 'yellow cone']
+
+roboflow:
+  workspace: cmpsc-488
+  project: cmpsc488
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cmpsc-488/cmpsc488/dataset/1
